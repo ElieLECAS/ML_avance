@@ -1,10 +1,12 @@
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from pathlib import Path
+import ssl
+
 
 def get_data():
-    filename = Path('../data/data.csv').resolve()
-    df = pd.read_csv(filename)
+    ssl._create_default_https_context = ssl._create_unverified_context
+    df = pd.read_csv('https://raw.githubusercontent.com/ElieLECAS/ML_avance/maxime/feature_selection/data/data.csv')
 
     y_start = df['charges']
     X_start = df.loc[:, df.columns != 'charges']
