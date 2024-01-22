@@ -46,3 +46,6 @@ Package [```sklearn.feature_selection```](https://scikit-learn.org/stable/module
 	- Elles peuvent être sensibles au choix du modèle d'apprentissage automatique utilisé.
 
 	Les méthodes wrapper sont généralement utilisées lorsque la performance du modèle est importante. Elles sont également utiles lorsque les interactions entre les caractéristiques sont importantes.
+
+Il existe une librairie qui implémente, entre autre, la feature selection : 
+[Feature Engine](https://feature-engine.trainindata.com/en/latest/api_doc/selection/index.html)
