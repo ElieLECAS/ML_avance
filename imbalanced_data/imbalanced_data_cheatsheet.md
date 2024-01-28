@@ -7,12 +7,16 @@
 
 ## Gérer le Compromis Precision/Recall
 - Courbe precision-recall
+
+    - `from sklearn.metrics import precision_recall_curve`
 - $F$-scores
+    - `from sklearn.metrics import f1_score, classification_report`
 - $F$-scores ajustés $F_{\beta}$
     - $\beta$ s'articule autour de 1,
     - Plus $\beta$ est inférieur à 1, plus on favorise la **precision**,
     - Plus $\beta$ est supérieur à 1, plus on favorise le **recall**.
     Des valeurs classiques sont $F_0$, $F_1$, $F_2$.
+    - `from sklearn.metrics import fbeta_score`
 
 # Stratification
 Avoir des *train set* et *validation set* aussi représentatifs que possible du *train set*, dans un *hold-out* ou une *cross-validation*.
@@ -106,4 +110,7 @@ from imblearn.over_sampling import SMOTE
 oversampler = SMOTE(random_state=0)
 X_train_smote, y_train_smote = oversampler.fit_resample(X_train, y_train)
 ```
-
+### Hyperparamètres
+- `sampling_strategy: float|str = "auto"` fonctionne comme dans `RandomOverSampler`,
+- `k_neighbors: int = 5` nombre de voisins,
+- `n_jobs: int|None = None` pour la parallélisation
