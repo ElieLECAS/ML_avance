@@ -3,7 +3,9 @@
 # Métriques
 ## Diagnostiquer/Comparer des Modèles de Classification Déséquilibrée
 - **Diagnostiquer** un modèle: **Courbe ROC**
+    - `from sklearn.metrics import roc_curve`
 - **Comparer** des modèles: **$F_1$ score** ou **AUC**
+    - `from sklearn.metrics import f1_score, roc_auc_score`
 
 ## Gérer le Compromis Precision/Recall
 - Courbe precision-recall
