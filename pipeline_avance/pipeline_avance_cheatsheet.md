@@ -14,7 +14,7 @@ Par ordre alphabétique de transformer
 - `drop='if_binary'` pour encoder une variable binaire.
 - `drop='first'` pour encoder une variable nominale à $N$ modalités sur $N-1$ colonnes.
 - `handle_unkown='ignore'` ne lève pas d'erreur sur une nouvelle modalité non rencontrée pendant un précédent entraînement. L'encode avec des zéros.
-- `sparse_ouput=True` empêche la sortie d'être une *sparse matrix*, ce qui est utile en mode inspection/debug, quand vous souhaitez afficher des DataFrames en sortie.
+- `sparse_ouput=False` empêche la sortie d'être une *sparse matrix*, ce qui est utile en mode inspection/debug, quand vous souhaitez afficher des DataFrames en sortie.
 
 # `OrdinalEncoder`
 Exemple des tailles de vêtements.
