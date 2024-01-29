@@ -8,7 +8,7 @@ Par ordre alphabétique de transformer
 
 # `ColumnTransformer`
 - `remainder='passthrough'` ne pas appliquer de traitement aux colonnes restantes.
-- `verbose_feature_names_out` ne pas préfixer les noms des features par le nom du transformer appliqué.
+- `verbose_feature_names_out=False` ne pas préfixer les noms des features par le nom du transformer appliqué.
 
 # `OneHotEncoder`
 - `drop='if_binary'` pour encoder une variable binaire.
