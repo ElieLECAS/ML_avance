@@ -13,7 +13,7 @@ Docs:
 ## Les différentes méthodes
 Package [```sklearn.feature_selection```](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.feature_selection)
 -  **Filtrage des caractéristiques (Filter Methods)**
-	- *VarianceTreshold* cette méthode s'applique sur la variance de chaque features. Il supprimera les features qui ne varient pas ou très peu en fonction d'un seuil.  
+	- *VarianceTreshold* cette méthode s'applique sur la variance de chaque features. Il supprimera les features qui ne varient pas ou très peu en fonction d'un seuil. Plus la variance est proche de 0, plus la variable a tendance à être constante.
   ```from sklearn.feature_selection import VarianceThreshold```
 	- *SelectKBest* L'objectif principal de `SelectKBest` est de sélectionner les "k" meilleures features d'un ensemble de données en utilisant divers tests statistiques. Elle est souvent utilisée pour effectuer une première étape de prétraitement des données en éliminant les features moins importantes et en se concentrant sur un sous-ensemble plus restreint de features.  
   ```from sklearn.feature_selection import SelectKBest```
