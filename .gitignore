@@ -4,6 +4,10 @@
 ### Linux ###
 *~
 
+MLImputer
+venv
+.venv
+
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
 
@@ -179,7 +183,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+ml/
 # Spyder project settings
 .spyderproject
 .spyproject
