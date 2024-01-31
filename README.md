@@ -19,13 +19,13 @@ Réalisé dans le cadre de la formation Dev. Data/IA Ecole MicroSoft by SIMPLON
 
 # Thèmes abordés (Planning Indicatif)
 ## Jour 1 (mercredi)
-### Imputation (Elie)
+### [**Imputation**](https://www.canva.com/design/DAF7Tfe6kZs/e9bHkcbge0YfvNZfOUUNaQ/edit?utm_content=DAF7Tfe6kZs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) (Elie)
 
 
 ### Métriques de Classification - Partie 1 (Louis)
 
 
-### Learning Curves (Déborah)
+### [**Learning Curves**](https://www.canva.com/design/DAF7AdaVfKc/5dQ_jG-qVkzwuEavpmnJ7Q/view?utm_content=DAF7AdaVfKc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview) (Déborah)
 
 
 ### [**Pipeline Avancé**](https://docs.google.com/presentation/d/19P2F18XuqRvt8_Mr8IIOwhqQDVDB2zFs29CPkmZnaRc/edit#slide=id.g2b33327429b_0_11) (Greg)
