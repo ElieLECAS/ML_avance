@@ -26,12 +26,16 @@ Package [```sklearn.feature_selection```](https://scikit-learn.org/stable/module
 
 		La régularisation est particulièrement utile lorsque le nombre de caractéristiques est élevé par rapport à la taille de l'ensemble de données, car elle peut aider à éviter l'overfitting dans de telles situations.
 
+		Peut s'utiliser dans un problème de classification avec `LogisticRegression` et `LinearSVC` via leur paramètre `penalty`
+
 			```from sklearn.linear_model import Lasso, Ridge```
 
 	- **RFE (Recursive Feature Elimination)**
-	RFE est une méthode de validation croisée qui élimine progressivement les caractéristiques les moins importantes.
-	```sklearn.feature_selection.RFE¶```
-
+	RFE est une méthode qui élimine progressivement les caractéristiques les moins importantes.
+	```sklearn.feature_selection.RFE```
+	- **Sequential Feature Selection (SFS)**
+	SFS peut fonctionner dans les 2 sens: partant de 0 features et ajouter la meilleure par validation croisée ou partant de toutes les features et en les supprimant par validation croisée. Cette méthode est plus couteuse en temps.
+	```sklearn.feature_selection.SequentialFeatureSelector```
 
 	Les méthodes wrapper sont une approche de la sélection de caractéristiques qui utilisent un modèle d'apprentissage automatique pour évaluer l'importance des caractéristiques. Ces méthodes sont généralement plus efficaces que les méthodes de filtrage, car elles peuvent prendre en compte les interactions entre les caractéristiques.
 
