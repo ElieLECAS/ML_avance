@@ -1,0 +1,13 @@
+- **age**: (continuous, positive integer) The age of the individual.
+- **workclass**: (categorical, 9 distinct values) Simplified employment status of an individual
+- **education**: (categorical, 13 distinct values) The education level. Note that for simplicity, we will
+- **fnlwgt**: (continuous, positive integer) Final weight of the record. Basically interpret as the number of people represented by this row. ignore this column because of the existence of education-num column.
+- **marital-status**: (categorical, 7 distinct values) Marital status of a person.
+- **occupation**: (categorical, 15 distinct values) Rough category of the occupation.
+- **relationship**: (categorical, 6 distinct values) Relationship in terms of the family. Note that we ignore this column since the semantic is somewhat covered by marital-status and gender.
+- **race**: (categorical, 5 distinct values) Race of the person.
+- **sex**: (boolean) gender at-birth.
+- **capital-gain**: (continuous) Dollar gain of capital.
+- **capital-loss**: (continuous) Dollar loss of capital.
+- **hours-per-week**: (continous positive integer) Working hours per week.
+- **income**: (boolean) True if ≥ 50K, otherwise False (< 50K per year).
