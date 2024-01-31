@@ -10,3 +10,4 @@ seaborn==0.13.1
 shap==0.44.1
 statsmodels==0.14.1
 xgboost==2.0.3
+sweetviz==2.3.1
