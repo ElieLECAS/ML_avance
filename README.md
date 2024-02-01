@@ -38,9 +38,10 @@ Réalisé dans le cadre de la formation Dev. Data/IA Ecole MicroSoft by SIMPLON
 ### [**Imbalanced Data**](https://docs.google.com/presentation/d/1ZV5sT8Aw4oeij15ICI1CXhvdBLSrcS8Vee9ZoXOhd4g/edit#slide=id.g2b3718b07d6_0_5) (Greg)
 
 
-### Feature Selection (Maxime)
+### [Feature Selection](https://github.com/ElieLECAS/ML_avance/tree/main/feature_selection) (Maxime)
 
-[Sweetviz EDA util](https://github.com/fbdesignpro/sweetviz)
+- [Sweetviz EDA util](https://github.com/fbdesignpro/sweetviz)
+- [feature engine](https://feature-engine.trainindata.com/en/latest/)
 
 
 Et plus si le timing le permet...
