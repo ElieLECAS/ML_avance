@@ -40,5 +40,7 @@ Réalisé dans le cadre de la formation Dev. Data/IA Ecole MicroSoft by SIMPLON
 
 ### Feature Selection (Maxime)
 
+[Sweetviz EDA util](https://github.com/fbdesignpro/sweetviz)
+
 
 Et plus si le timing le permet...
