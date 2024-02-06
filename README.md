@@ -26,6 +26,7 @@ Réalisé dans le cadre de la formation Dev. Data/IA Ecole MicroSoft by SIMPLON
 
 
 ### [**Learning Curves**](https://www.canva.com/design/DAF7AdaVfKc/5dQ_jG-qVkzwuEavpmnJ7Q/view?utm_content=DAF7AdaVfKc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview) (Déborah)
+[Model evaluation (scoring parameter)](https://scikit-learn.org/stable/modules/model_evaluation.html#the-scoring-parameter-defining-model-evaluation-rules)
 
 
 ### [**Pipeline Avancé**](https://docs.google.com/presentation/d/19P2F18XuqRvt8_Mr8IIOwhqQDVDB2zFs29CPkmZnaRc/edit#slide=id.g2b33327429b_0_11) (Greg)
