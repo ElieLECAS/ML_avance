@@ -33,7 +33,7 @@ Réalisé dans le cadre de la formation Dev. Data/IA Ecole MicroSoft by SIMPLON
 
 
 ## Jour 2 (jeudi)
-### Métriques de Classification - Partie 2 (Quentin)
+### [**Métriques de Classification - Partie 2**](https://www.canva.com/design/DAF7QVOfKqs/5aXPibLqWwkKDVW383q1Fw/view?utm_content=DAF7QVOfKqs&utm_campaign=designshare&utm_medium=link&utm_source=editor) (Quentin)
 
 
 ### [**Imbalanced Data**](https://docs.google.com/presentation/d/1ZV5sT8Aw4oeij15ICI1CXhvdBLSrcS8Vee9ZoXOhd4g/edit#slide=id.g2b3718b07d6_0_5) (Greg)
